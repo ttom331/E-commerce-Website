@@ -1,0 +1,423 @@
+body{
+  font-family: "Raleway", sans-serif;
+}
+.navbar-custom {
+    height: 30px;
+  }
+
+/*navbar elements*/
+
+.accountButton{
+  color: black;
+}
+
+.accountButton:hover{
+  color: #C50E51;
+
+}
+
+.wishlistButton{
+  color: black;
+}
+
+.wishlistButton:hover{
+  color: #C50E51;
+
+}
+
+.basketButton{
+  color: black;
+}
+
+.basketButton:hover{
+  color: #C50E51;
+
+}
+
+.navbar{
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.btn-circle.btn-xl {
+  width: 100px;
+  height: 100px;
+  padding: 13px 18px;
+  border-radius: 60px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.btn-col-1{
+  background-image: url(assets/books.jpg);
+  background-size: cover;
+}
+
+/* Prodcut */
+
+.product{
+  cursor: pointer;
+  margin-bottom: 2rem;
+  font-family: 'poppins' 'sans-serif';
+
+}
+
+.product img{
+  transition:  0.3s all;;
+
+}
+
+.product:hover img{
+  opacity: 0.7;
+}
+
+
+.buy-btn{
+  font-size: 0.8rem;
+  font-weight: 900;
+  outline: none;
+  border: none;
+  background-color: #C50E51;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+
+
+.buy-btn:hover{
+  background-color: #970b3f;
+}
+
+.wish-btn{
+  font-size: 0.8rem;
+  font-weight: 900;
+  outline: none;
+  border: none;
+  background-color: #C50E51;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+
+
+.wish-btn:hover{
+  background-color: #970b3f;
+}
+
+.p-name{
+  font-weight: 100;
+}
+
+.fa-star{
+  color: #FDCC0D;
+}
+
+/*selected product*/
+
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+.single-product{
+  font-weight: 100;
+}
+
+.single-product h6{
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+
+.single-product h3{
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.single-product h3{
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+
+.single-product input:focus{
+  outline: none;
+}
+
+.single-product input{
+  width: 50px;
+  height: 38px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.single-product .buy-btn{
+  opacity: 1;
+  transition: 0.4s all;
+  background-color: #C50E51;
+}
+
+.single-product .buy-btn:hover{
+    background-color: black;
+}
+
+/*basket*/
+
+.basket table{
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+.basket .product-info{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.basket th{
+  text-align: left;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #C50E51;
+}
+
+.basket td{
+  padding: 10px 20px;
+
+}
+
+.basket td img{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.basket td input{
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+.basket td a{
+  color: #C50E51;
+}
+
+.basket .remove-btn{
+  color: #C50E51;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: #fff;
+  border: none;
+  width: 100%;
+}
+
+.basket .edit-btn{
+  color: #C50E51;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: #fff;
+  border: none;
+
+}
+
+.basket .product-info p{
+  margin: 3px;
+}
+
+.basket-total{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.basket-total table{
+  width: 100%;
+  max-width: 500px;
+  border-top: 3px solid #C50E51;
+}
+
+td:last-child{
+  text-align: right;
+  
+}
+
+th:last-child{
+  text-align: right;
+}
+
+.checkout-btn{
+  font-size: 0.8rem;
+  font-weight: 900;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s ease;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #C50E51;
+  color: #fff;
+
+}
+
+.checkout-btn:hover{
+  background-color: black;
+  color: #fff;
+}
+
+.checkout-container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*checkout poage*/
+
+#checkout-Form .checkout-small-element{
+  display: inline-block;
+  width: 48%;
+  margin: 10px auto;
+}
+
+#checkout-Form .checkout-large-element{
+  width: 96.5%;
+
+}
+
+#checkout-Form .checkout-btn-container{
+  margin: 10px;
+  text-align: right;
+  margin-right: 40px;
+
+}
+
+#checkout-Form #checkout-btn{
+  color: #fff;
+  background-color: #C50E51;
+}
+
+/*account page*/
+
+.orders table{
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+.orders .product-info{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.orders th{
+  /* text-align: left; */
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #C50E51;
+  
+}
+
+.orders th:nth-child(2){
+
+}
+
+.orders td img{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+#orders-btn{
+  text-decoration: none;
+  font-weight: 800;
+  color: #C50E51;
+}
+
+#logout-btn{
+  text-decoration: none;
+  font-weight: 800;
+  color: #C50E51;
+}
+
+.orders .order-details-btn{
+
+  text-decoration: none;
+  font-weight: 800;
+  color: #C50E51;
+}
+
+.orders .purchase-btn{
+
+  text-decoration: none;
+  font-weight: 800;
+  color: #C50E51;
+}
+
+/*payment page*/
+
+#checkout-Form .checkout-small-element-pay{
+  display: inline-block;
+  width: 49%;
+  margin: 10px auto;
+}
+
+#checkout-Form .checkout-large-element-pay{
+  width: 96.5%;
+
+}
+
+/*help page*/
+
+.icon-lg {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.card {
+  box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+a {
+  text-decoration:none;    
+}
+
+.desc{
+  color:#fff;    
+}
+
+/*pay success button*/
+.email-btn{
+  font-size: 0.8rem;
+  font-weight: 900;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s ease;
+  justify-content: center;
+  background-color: #C50E51;
+  color: #fff;
+
+}
+
+.email-btn:hover{
+  background-color: black;
+  color: #fff;
+}
