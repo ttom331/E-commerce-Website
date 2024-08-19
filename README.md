@@ -4,6 +4,3 @@ The requirement of this project is to create a web application for an ecommerce 
 
 This website was created using HTML, CSS, JavaScript, PHP and Bootstrap 5.0. MySQL used for the database.
 
-```
-hi
-```
